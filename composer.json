@@ -1,0 +1,27 @@
+{
+    "name": "smartlearnpro/slp-installer",
+    "description": "Laravel Web Installer For SmartLearnPro",
+    "require": {
+        "php": "^7.0.0|^8.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smartlearnpro",
+            "email": "smartlearnprofessional@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SmartLearnPro\\SlpInstaller\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SmartLearnPro\\SlpInstaller\\Providers\\SlpInstallerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable"
+}
